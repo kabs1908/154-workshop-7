@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header{
+    padding: 60px 80px;
+  background-color: #ffffff;
+}
+
+header h1{
+    font-size: 20px;
+   
+}
+
+header ul{
+    width: 500px;
+}
+
+.nav a{
+    position: relative;
+    padding: 15px;
+}
+
+.nav li a.active::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+
+header a:link {
+    color: #000000;
+    font-size: 20px;
+}
+
+.toggle i  {   
+    font-size: 25px;  
+}
+
+.order{
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FDC72D;
+    font-size: 20px;
+}
+
+main{
+    padding: 0px 150px 0px 200px;
+}
+
+.sur1{
+    margin-left:100px ;
+}
+
+.sec1{
+    width: 466px;
+    height: 366px;
+    margin-right: 100px;
+   
+}
+
+.sec1 h2{
+    font-size: 60px;
+}
+.text1{
+    margin-top: 36px;
+    width: 90%;
+    height: 90px;
+    font-size: 20px;
+}
+.order2{
+    margin-top: 52px;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FDC72D;
+    font-size: 20px;
+}
+
+
+.img1{
+    width:870px ;
+    height:724px ;
+}
+
+
+
+/* 
+---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.main2{
+    flex-wrap: wrap;
+ 
+}
+
+.aboutsec{
+   margin-top:200px;
+}
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.main3 h3{
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.servis1{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 380px;
+    height: 380px;
+    padding: 35px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servis1 p {
+    text-align: center;
+}
+
+.servserv{
+    margin-top: 200px;
+    padding: 0px 100px;
+}
+
+
+
+.seca{
+    /* margin-right: 250px; */
+    width: 470px;
+}
+
+
+.seca h2{
+    font-size: 40px;
+}
+.diva{
+    padding: 20px;
+}
+
+
+
+/* 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.mmain{
+    padding:  100px  200px;
+}
+
+.ddiv{
+    width: 506px;
+    height: 254px;
+}
+
+.ddiv h2{
+    font-size: 40px;
+    width: 70%;
+}
+
+.ddiv p{
+    font-size: 20px;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.divv p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.foota{
+    align-items: flex-start;
+    background-color: #FEE395;
+    height: 450px;
+    width: 100%;
+    padding: 102px 218px 0px 102px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.foota h2 {
+    margin-bottom: 20px;
+}
+
+.foota ul li{
+    margin-bottom: 10px ;
+}
+
+.simbolo{
+    width: 160px;
+}
+
+.simbolo i{
+    font-size: 30px;
+}
+
+.last{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #FEE395;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
